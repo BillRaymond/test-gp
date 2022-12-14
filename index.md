@@ -5,3 +5,11 @@
 layout: home
 ---
 Page name: {{page.name}}
+
+Page name + webp extension: {{page.name | split: '.' | first | append: '.webp'}}
+
+Page name + relative url: {{page.name | relative_url}}
+
+Page name + relative url + webp extension: {{page.name | relative_url | split: '.' | first | append: '.webp'}}
+
+
