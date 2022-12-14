@@ -4,3 +4,4 @@
 
 layout: home
 ---
+Page name: {{page.name}}
